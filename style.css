@@ -5,11 +5,12 @@
 
 body{
 	background: #222937; 
+	user-select: none;
 }
 
 .header{
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 	text-align: center;
 	color: #fff;
 /*1*/	/*font-family: 'Anton', sans-serif;*/
@@ -23,18 +24,19 @@ body{
 /*9*/	/*font-family: 'Press Start 2P', cursive;*/
 /*10*/	/*font-family: 'Zilla Slab Highlight', cursive;*/
 /*11*/	/*font-family: 'Zilla Slab Highlight', cursive;*/
-	font-size: 50px;
+	font-size: 60px;
+	letter-spacing: 3px;
 }
 
 ul{margin-bottom: 40px}
 
-li {
-	font-family: 'Nosifer', cursive;
-	font-size: 50px;
-	color: red;
+li {	
+	font-family: 'Special Elite', cursive;
+	letter-spacing: 10px;
+	color: #fff;
+	font-size: 60px;
 	padding: 0;
 	margin: 0;
-	height: 50 px;
 	display: flex;
 	flex-directon: column;
 	justify-content: space-around;
@@ -42,10 +44,16 @@ li {
 
 }
 
-#one {color: #C70000;}
-#two {color: #C70000;}
-#three {color: #C70000}
+#one {
+	font-family: 'Nosifer', cursive;
+	font-size: 60px;
+	color: #C70000;
+	margin-bottom: 20px;
+}
 
+#two {
+	margin-bottom: 30px;
+}
 .countdown {
 	display: flex;
 	justify-content:center;
@@ -60,6 +68,7 @@ li {
 	color: #fff;
 	padding: 0 30px;
 	border-right: 2px solid #fff;
+	user-select: none;
 }
 
 .time-section:last-child {
@@ -68,10 +77,10 @@ li {
 
 .count {
 	font-family: 'Special Elite', cursive;
-	font-size: 60px;
+	font-size: 70px;
 }
 
 .units {
 	font-family: 'Love Ya Like A Sister', cursive;
-	font-size: 30px;
+	font-size: 40px;
 }
