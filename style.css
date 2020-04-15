@@ -1,4 +1,6 @@
 *{
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 }
@@ -27,7 +29,7 @@ body{
 /*9*/	/*font-family: 'Press Start 2P', cursive;*/
 /*10*/	/*font-family: 'Zilla Slab Highlight', cursive;*/
 /*11*/	/*font-family: 'Zilla Slab Highlight', cursive;*/
-	font-size: 60px;
+	font-size: 50px;
 	letter-spacing: 3px;
 }
 
@@ -37,7 +39,7 @@ li {
 	font-family: 'Special Elite', cursive;
 	letter-spacing: 10px;
 	color: #fff;
-	font-size: 60px;
+	font-size: 50px;
 	padding: 0;
 	margin: 0;
 	display: flex;
@@ -50,45 +52,62 @@ li {
 #one {
 
 	font-family: 'Nosifer', cursive;
-	font-size: 60px;
+	font-size: 50px;
 	color: #C70000;
-	padding-bottom: 20px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
 	text-align: center;
+	line-height: 65px
 }
 
 #two {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .countdown {
 	display: flex;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 	justify-content:center;
 	align-items: center;
+	margin-bottom: 40px;
+	
 }
 
 .time-section {
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	color: #fff;
 	padding: 0 30px;
-
-	border-right: 2px solid #fff;
-	user-select: none;
+	
+	
 }
 
-.time-section:last-child {
+.time-section{position:relative;}
+.time-section:before{
+position:absolute;
+top:0;
+right:0;
+height:75%;
+border-right:2px solid #fff;
+content:"";
+} 
+
+.time-section:last-child:before {
 	border: none;
 }
 
 .count {
 	font-family: 'Special Elite', cursive;
-	font-size: 70px;
+	font-size: 60px;
+	
 }
 
 .units {
 	font-family: 'Love Ya Like A Sister', cursive;
-	font-size: 40px;
-	padding-bottom: 20px;
+	font-size: 30px;
+	padding-bottom: 0px;
+	margin-bottom: 20px;
+	;
 }
