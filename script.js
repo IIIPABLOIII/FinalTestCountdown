@@ -1,16 +1,16 @@
 
 
-	var countDownDate = new Date(2020, 3, 16, 17, 0, 0, 0).getTime();
+	var countDownDate = new Date(2020, 3, 24, 18, 30, 0, 0).getTime();
 
 	var countDownFunction = setInterval(function () {
 
 		var now = new Date().getTime();
-		var distance = countDownDate - now;
+		var distance = (countDownDate - now)/1000;
 
-		var days = Math.floor(distance / (1000 * 60 *60 * 24));
-		var hours = Math.floor((distance & (1000 * 60 *60 * 24)) / (1000 * 60 * 60));
-		var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-		var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+		var days = parseInt(distance / (60 * 60 * 24));
+		var hours = parseInt((distance % (60 * 60 * 24)) / (60 * 60));
+		var minutes = parseInt((distance % (60 * 60)) / (60));
+		var seconds = parseInt((distance % (60)));
 
 		if (days <= 9) {
 			document.getElementById("days").innerHTML = "0" + days;
