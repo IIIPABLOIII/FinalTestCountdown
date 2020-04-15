@@ -9,6 +9,9 @@ body{
 }
 
 .header{
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
 	margin-top: 20px;
 	margin-bottom: 5px;
 	text-align: center;
@@ -45,10 +48,12 @@ li {
 }
 
 #one {
+
 	font-family: 'Nosifer', cursive;
 	font-size: 60px;
 	color: #C70000;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
+	text-align: center;
 }
 
 #two {
@@ -56,6 +61,7 @@ li {
 }
 .countdown {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content:center;
 	align-items: center;
 }
@@ -67,6 +73,7 @@ li {
 	align-items: center;
 	color: #fff;
 	padding: 0 30px;
+
 	border-right: 2px solid #fff;
 	user-select: none;
 }
@@ -83,4 +90,5 @@ li {
 .units {
 	font-family: 'Love Ya Like A Sister', cursive;
 	font-size: 40px;
+	padding-bottom: 20px;
 }
