@@ -1,6 +1,6 @@
 
 
-	var countDownDate = new Date(2020, 3, 24, 18, 30, 0, 0).getTime();
+	var countDownDate = new Date(2020, 3, 20, 18, 30, 0, 0).getTime();
 
 	var countDownFunction = setInterval(function () {
 
