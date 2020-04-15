@@ -1,0 +1,77 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: #222937; 
+}
+
+.header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #fff;
+/*1*/	/*font-family: 'Anton', sans-serif;*/
+/*2*/	/*font-family: 'Bangers', cursive;*/
+/*-3*/	/*font-family: 'Nosifer', cursive;*/
+/*+4*/	font-family: 'Black Han Sans', sans-serif;
+/*-5*/	/*font-family: 'Black And White Picture', sans-serif;*/
+/*+num6*/	/*font-family: 'Special Elite', cursive;*/
+/*7*/	/*font-family: 'Luckiest Guy', cursive;*/
+/*+num8*/	/*font-family: 'Love Ya Like A Sister', cursive;*/
+/*9*/	/*font-family: 'Press Start 2P', cursive;*/
+/*10*/	/*font-family: 'Zilla Slab Highlight', cursive;*/
+/*11*/	/*font-family: 'Zilla Slab Highlight', cursive;*/
+	font-size: 50px;
+}
+
+ul{margin-bottom: 40px}
+
+li {
+	font-family: 'Nosifer', cursive;
+	font-size: 50px;
+	color: red;
+	padding: 0;
+	margin: 0;
+	height: 50 px;
+	display: flex;
+	flex-directon: column;
+	justify-content: space-around;
+	align-items:center;
+
+}
+
+#one {color: #C70000;}
+#two {color: #C70000;}
+#three {color: #C70000}
+
+.countdown {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.time-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	padding: 0 30px;
+	border-right: 2px solid #fff;
+}
+
+.time-section:last-child {
+	border: none;
+}
+
+.count {
+	font-family: 'Special Elite', cursive;
+	font-size: 60px;
+}
+
+.units {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 30px;
+}
