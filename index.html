@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=600">
 	<title>Final Countdown</title>
 	<link rel="icon" href="timer.ico">
 	<!--1--><link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
@@ -21,39 +22,38 @@
 	<script src="script.js"></script>
 </head>	
 <body>
-	<header class="header">
-		<p1>STREAMLINE B1 COURSE</p1>	
-	</header>
+	<div class="container">
+		<header class="header">
+			<p1>STREAMLINE</p1>	
+			<p1>B1 COURSE</p1>
+		</header>
 
-	<main>
-		<ul> 
-			<li id="one"> SPEAKING TEST </li>
-			<li id="two"> STARTS </li>
-			<li id="three"> IN </li>
-		</ul>
+		<main>
+			<ul> 
+				<li id="one"> SPEAKING TEST </li>
+				<li id="two"> STARTS </li>
+				<li id="three"> IN </li>
+			</ul>
 
-		<div class="countdown">
-			<div class="time-section">
-				<span class="count" id="days"></span>
-				<span class="units">days</span>
+			<div class="countdown">
+				<div class="time-section">
+					<span class="count" id="days"></span>
+					<span class="units">days</span>
+				</div>
+				<div class="time-section">
+					<span class="count" id="hours"></span>
+					<span class="units">hours</span>
+				</div>
+				<div class="time-section">
+					<span class="count" id="minutes"></span>
+					<span class="units">minutes</span>
+				</div>
+				<div class="time-section">
+					<span class="count" id="seconds"></span>
+					<span class="units">seconds</span>
+				</div>
 			</div>
-			<div class="time-section">
-				<span class="count" id="hours"></span>
-				<span class="units">hours</span>
-			</div>
-			<div class="time-section">
-				<span class="count" id="minutes"></span>
-				<span class="units">minutes</span>
-			</div>
-			<div class="time-section">
-				<span class="count" id="seconds"></span>
-				<span class="units">seconds</span>
-			</div>
-		</div>
-		
-		
-
-	 </main>
-
+		 </main>
+	</div>
 </body>
 </html>
