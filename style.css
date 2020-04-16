@@ -33,17 +33,8 @@ body{
 	margin-bottom: 10px;
 	text-align: center;
 	color: #fff;
-/*1*/	/*font-family: 'Anton', sans-serif;*/
-/*2*/	/*font-family: 'Bangers', cursive;*/
-/*-3*/	/*font-family: 'Nosifer', cursive;*/
-/*+4*/	font-family: 'Black Han Sans', sans-serif;
-/*-5*/	/*font-family: 'Black And White Picture', sans-serif;*/
-/*+num6*/	/*font-family: 'Special Elite', cursive;*/
-/*7*/	/*font-family: 'Luckiest Guy', cursive;*/
-/*+num8*/	/*font-family: 'Love Ya Like A Sister', cursive;*/
-/*9*/	/*font-family: 'Press Start 2P', cursive;*/
-/*10*/	/*font-family: 'Zilla Slab Highlight', cursive;*/
-/*11*/	/*font-family: 'Zilla Slab Highlight', cursive;*/
+
+	font-family: 'Black Han Sans', sans-serif;
 	font-size: 50px;
 	letter-spacing: 3px;
 }
