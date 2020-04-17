@@ -2,7 +2,9 @@
 
 	var countDownDate = new Date(2020, 3, 20, 18, 30, 0, 0).getTime();
 
-	var countDownFunction = setInterval(function () {
+	var countDownFunction = setInterval(calculate, 1000);
+
+	function calculate(){
 
 		var now = new Date().getTime();
 		var distance = (countDownDate - now)/1000;
@@ -39,5 +41,5 @@
 		if (distance < 0) {
 			clearInterval(countDownFunction);
 		}
-	}, 1000)
+	}
 	
