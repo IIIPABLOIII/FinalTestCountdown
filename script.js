@@ -12,7 +12,7 @@
 		if (distance < 0) {
 			clearInterval(countDownFunction);
 			document.getElementById("days").innerHTML = "00";
-			document.getElementById("hours").innerHTML = "00"
+			document.getElementById("hours").innerHTML = "00";
 			document.getElementById("minutes").innerHTML = "00";
 			document.getElementById("seconds").innerHTML = "00";
 			document.getElementById("message1").innerHTML = "GOOD LUCK!";
