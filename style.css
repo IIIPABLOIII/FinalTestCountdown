@@ -74,7 +74,7 @@ li {
 	flex-flow: row wrap;
 	justify-content:center;
 	align-items: center;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	
 }
 
@@ -116,4 +116,14 @@ content:"";
 	padding-bottom: 0px;
 	margin-bottom: 20px;
 	
+}
+
+.message {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 70px;
+	text-align: center;
+	color: #00B0FF;
 }
