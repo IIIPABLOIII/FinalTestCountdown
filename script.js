@@ -1,11 +1,13 @@
-
-
+	function fill(){
+		document.getElementById("one").innerHTML = "ORAL EXAM";
+	}
+	
 	var countDownDate = new Date("April 22, 2020 18:30:00").getTime();
 
 	var countDownFunction = setInterval(calculate, 1000);
 
 	function calculate(){
-
+		
 		var now = new Date().getTime();
 		var distance = (countDownDate - now)/1000;
 
