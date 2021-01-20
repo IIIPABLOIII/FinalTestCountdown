@@ -2,7 +2,7 @@
 		document.getElementById("one").innerHTML = "ORAL EXAM";
 	}
 	
-	var countDownDate = new Date("April 22, 2020 18:30:00").getTime();
+	var countDownDate = new Date("June 23, 2021 10:00:00").getTime();
 
 	var countDownFunction = setInterval(calculate, 1000);
 
@@ -48,8 +48,6 @@
 			document.getElementById("seconds").innerHTML = "0" + seconds;
 		} else {
 		document.getElementById("seconds").innerHTML = seconds;
-		}
-	
-		
+		}		
 	}
 	
